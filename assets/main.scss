@@ -5,3 +5,20 @@ $background-color: #ffffff;
 $grey-color-dark:  #111;
 
 @import "whiteglass";
+
+body {
+    font-family: "Calibre", system-ui, -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+    font-size: 1.0rem;
+}
+
+p code {
+    white-space: nowrap;
+}
+
+@media(max-width:380px) {
+    header .wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
