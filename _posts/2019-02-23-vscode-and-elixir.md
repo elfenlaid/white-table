@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fine graining Elixir tests in VSCode
+title: "Fine graining Elixir tests in VSCode"
 categories: elixir vscode
 ---
 
